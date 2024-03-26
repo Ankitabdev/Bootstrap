@@ -1,87 +1,117 @@
 :root {
-    --Magenta-10: #ffd2ff;
-    --Magenta-20: #ff9eee;
-    --Magenta-30: #ff71d4;
-    --Magenta-40: #ff3ca0;
-    --Magenta-50: #db2780;
-    --Magenta-60: #a6266e;
-    --Magenta-70: #7c1c58;
-    --Magenta-80: #601146;
-    --Magenta-90: #3a0b2e;
-    --Magenta-100: #040102;
-    --White: #ffffff;
-  
-    --primary-font: "Josefin Sans", sans-serif;
-    --bold-font: 800;
-    --medium-font: 600;
-    --regular-font: 400;
-    --light-font: 200;
-  }
-  
-  /* My Font Styles */
-  
-  body {
-    font-family: var(--primary-font);
-  }
-  
-  h1 {
-    font-weight: var(--bold-font);
-  }
-  h2 {
-    font-weight: var(--medium-font);
-  }
-  h3 {
-    font-weight: var(--regular-font);
-  }
-  .font-variations {
-    font-weight: var(--bold-font);
-  }
-  
-  /* My Button Styles */
-  
-  .button-solid {
-    background-color: var(--Magenta-50);
-    border-color: var(--Magenta-50);
-    border-width: 2px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  
-  .button-outlined {
-    background-color: var(--White);
-    border-color: var(--Magenta-50);
-    color: var(--Magenta-50);
-    border-width: 2px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  
-  .button-gradient {
-    background: linear-gradient(
-      55deg,
-      var(--Magenta-20) 20%,
-      var(--Magenta-40) 70%
-    );
-    border-color: var(--Magenta-10);
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  
-  .button-solid:hover,
-  .button-gradient:hover,
-  .button-outlined:hover {
-    background-color: var(--Magenta-10);
-    border-color: var(--Magenta-10);
-    color: var(--Magenta-60);
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  
-  .container {
-    padding: 50px;
-  }
-  
-  hr.solid {
-    border-top: 1px solid #000000;
-  }
-  
+  --Navy: #4f6068;
+  --Soft-Emerald: #6f908e;
+  --Burnt-Orange: #cb936d;
+  --Blushing: #c5a39a;
+  --Spring-Pink: #ebd3ca;
+  --Boho-Brown: #a36d52;
+  --White: #ffffff;
+
+  --primary-font: "Josefin Sans", sans-serif;
+  --bold-font: 800;
+  --medium-font: 600;
+  --regular-font: 400;
+  --light-font: 200;
+}
+
+/* My Font Styles */
+
+body {
+  font-family: var(--primary-font);
+}
+
+h1 {
+  font-weight: var(--bold-font);
+}
+h2 {
+  font-weight: var(--medium-font);
+}
+h3 {
+  font-weight: var(--regular-font);
+}
+h5 {
+  color: #808080;
+}
+
+.font-variations {
+  font-weight: var(--bold-font);
+}
+
+/* My Button Styles */
+
+.button-solid {
+  background-color: var(--Navy);
+  border-color: var(--Navy);
+  border-width: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-outlined {
+  background-color: var(--White);
+  border-color: var(--Navy);
+  color: var(--Navy);
+  border-width: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-gradient {
+  background: linear-gradient(
+    55deg,
+    var(--Boho-Brown) 20%,
+    var(--Burnt-Orange) 70%
+  );
+  border-color: var(--Magenta-10);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-solid:hover,
+.button-gradient:hover,
+.button-outlined:hover {
+  background-color: var(--Navy) 50%;
+  border-color: var(--Navy);
+  color: var(--Magenta-60);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  padding: 50px;
+}
+
+hr.solid {
+  border-top: 1px solid #000000;
+}
+
+.icon-button-small {
+  background-color: var(--Navy);
+  border: none;
+  color: white;
+  padding: 12px 35px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon-button-medium {
+  background-color: var(--Navy);
+  border: none;
+  color: white;
+  padding: 20px 45px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.icon-button-large {
+  background-color: var(--Navy);
+  border: none;
+  color: white;
+  padding: 25px 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background-color: RoyalBlue;
+}
