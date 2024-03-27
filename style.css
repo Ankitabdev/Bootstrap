@@ -50,6 +50,7 @@ h5 {
 .button-solid {
   background-color: var(--Navy);
   border-color: var(--Navy);
+  color: var(--White);
   border-width: 2px;
   padding-left: 30px;
   padding-right: 30px;
@@ -81,11 +82,25 @@ h5 {
   padding-left: 30px;
   padding-right: 30px;
 }
-.button-gradient:hover,
-.button-outlined:hover {
-  background-color: var(--Navy) 50%;
+.button-gradient:hover {
+  
+  background: linear-gradient(
+    55deg,
+    var(--Navy) 20%,
+    var(--Soft-Emerald) 70%
+  );
   border-color: var(--Navy);
-  color: var(--Navy);
+  color: var(--White);
+  padding-left: 30px;
+  padding-right: 30px;
+  
+  
+}
+
+.button-outlined:hover {
+  background-color: var(--Boho-Brown);
+  border-color: var(--Burnt-Orange);
+  color: var(--White);
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -132,15 +147,18 @@ hr.solid {
 
 .icon-button-small:hover {
   background-color: var(--Navy);
+  color: var(--White);
   font-size: 14px;
 }
 
 .icon-button-medium:hover {
   background-color: var(--Navy);
+  color: var(--White);
   font-size: 16px;
 }
 
 .icon-button-large:hover {
   background-color: var(--Navy);
+  color: var(--White);
   font-size: 18px;
 }

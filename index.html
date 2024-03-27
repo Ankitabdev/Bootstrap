@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="Assets/Logo.png" />
+    <link rel="icon" href="Assets/Logo.png"/>
 
     <title>Design System - Ankita Borawake</title>
     <link
@@ -248,17 +248,17 @@
         <div class="container mt-5">
           <div class="row">
             <div class="col">
-              <button type="button" class="btn btn-success button-solid">
+              <button type="button" class="btn button-solid">
                 Button 1
               </button>
             </div>
             <div class="col">
-              <button type="button" class="btn btn-success button-outlined">
+              <button type="button" class="btn button-outlined">
                 Button 2
               </button>
             </div>
             <div class="col">
-              <button type="button" class="btn btn-success button-gradient">
+              <button type="button" class=" btn button-gradient">
                 Button 3
               </button>
             </div>
@@ -267,17 +267,17 @@
         <div class="container mt-1">
           <div class="row">
             <div class="col">
-              <button class="icon-button-small">
+              <button class=" btn icon-button-small">
                 <i class="fa fa-bars"></i> Menu
               </button>
             </div>
             <div class="col">
-              <button class="icon-button-medium">
+              <button class=" btn icon-button-medium">
                 <i class="fa fa-bars"></i> Menu
               </button>
             </div>
             <div class="col">
-              <button class="icon-button-large">
+              <button class=" btn icon-button-large">
                 <i class="fa fa-bars"></i> Menu
               </button>
             </div>
@@ -304,7 +304,7 @@
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary button-solid"
+                  <a href="#" class="btn button-solid"
                     >Add to cart</a
                   >
                 </div>
@@ -312,7 +312,7 @@
             </div>
 
             <div class="col">
-              <div class="card" style="width: 18rem">
+              <div class="card" style="width: 20rem">
                 <div class="card-body">
                   <h3 class="card-title">Card title</h3>
                   <br />
@@ -325,7 +325,7 @@
                     <li class="list-group-item">A second item</li>
                     <li class="list-group-item">A third item</li>
                   </ul>
-                  <a href="#" class="btn btn-primary button-solid"
+                  <a href="#" class="btn button-solid"
                     >Add more items</a
                   >
                 </div>
@@ -333,17 +333,37 @@
             </div>
 
             <div class="col">
-              <div class="card" style="width: 14rem">
+              <div class="card" style="width: 16rem">
                 <div class="card-body">
-                  <h3 class="card-title">Card title</h3>
+                  <h3 class="card-title">Toggle Right</h3>
                   <br />
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary button-solid"
-                    >Click Button</a
-                  >
+                  <button class="btn button-solid" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">View offcanvas</button>
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <img
+                        src="Assets/Logo.png"
+                        alt="..."
+                        width="50"
+                        height="50"
+                      />
+                      <br></br>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                      </ul>
+
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -675,7 +695,7 @@
               </a>
               <a
                 href="https://ankitab.in/contact/"
-                class="btn btn-primary button-solid"
+                class="btn button-solid"
                 >Get connected</a
               >
             </div>
