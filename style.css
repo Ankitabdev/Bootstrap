@@ -33,6 +33,14 @@ h5 {
   color: #808080;
 }
 
+.boxed {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fffcf8;
+}
+
 .font-variations {
   font-weight: var(--bold-font);
 }
@@ -59,26 +67,36 @@ h5 {
 .button-gradient {
   background: linear-gradient(
     55deg,
-    var(--Boho-Brown) 20%,
-    var(--Burnt-Orange) 70%
+    var(--Blushing) 20%,
+    var(--Spring-Pink) 70%
   );
-  border-color: var(--Magenta-10);
+  border-color: var(--Blushing);
   padding-left: 30px;
   padding-right: 30px;
 }
-
-.button-solid:hover,
+.button-solid:hover {
+  background-color: var(--White);
+  border-color: var(--Navy);
+  color: var(--Navy);
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .button-gradient:hover,
 .button-outlined:hover {
   background-color: var(--Navy) 50%;
   border-color: var(--Navy);
-  color: var(--Magenta-60);
+  color: var(--Navy);
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .container {
   padding: 50px;
+}
+
+.main-container {
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 hr.solid {
@@ -88,7 +106,7 @@ hr.solid {
 .icon-button-small {
   background-color: var(--Navy);
   border: none;
-  color: white;
+  color: var(--White);
   padding: 12px 35px;
   font-size: 16px;
   cursor: pointer;
@@ -97,7 +115,7 @@ hr.solid {
 .icon-button-medium {
   background-color: var(--Navy);
   border: none;
-  color: white;
+  color: var(--White);
   padding: 20px 45px;
   font-size: 18px;
   cursor: pointer;
@@ -106,12 +124,23 @@ hr.solid {
 .icon-button-large {
   background-color: var(--Navy);
   border: none;
-  color: white;
+  color: var(--White);
   padding: 25px 50px;
   font-size: 20px;
   cursor: pointer;
 }
 
-.icon-button:hover {
-  background-color: RoyalBlue;
+.icon-button-small:hover {
+  background-color: var(--Navy);
+  font-size: 14px;
+}
+
+.icon-button-medium:hover {
+  background-color: var(--Navy);
+  font-size: 16px;
+}
+
+.icon-button-large:hover {
+  background-color: var(--Navy);
+  font-size: 18px;
 }
